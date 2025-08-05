@@ -1,7 +1,7 @@
-# demo
-a demo
-aa demo
+# 🧪 Linux DNS Lab (Caching-Only with BIND)
 
-## subheader
+This repository contains configuration and setup instructions for building a caching-only DNS server using BIND 9 on RHEL 9.
 
-Watch a youtube tutorial!
+## 📦 Packages Installed
+```bash
+sudo dnf install bind bind-utils -y
