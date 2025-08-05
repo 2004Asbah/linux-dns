@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.16.23-RH <<>> google.com @localhost
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11180
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 8e5792e09837e54f010000006892433ab749b1c654417e40 (good)
+;; QUESTION SECTION:
+;google.com.			IN	A
+
+;; ANSWER SECTION:
+google.com.		181	IN	A	172.217.26.46
+
+;; Query time: 34 msec
+;; SERVER: ::1#53(::1)
+;; WHEN: Tue Aug 05 23:15:30 IST 2025
+;; MSG SIZE  rcvd: 83
+
